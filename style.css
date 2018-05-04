@@ -1,0 +1,42 @@
+nav{
+  width:960px;
+  margin: 0 auto;
+}
+
+nav:before{
+ content: '';
+ display: block;
+ height:75px;
+ width:100%;
+ background:#333;
+ position: absolute;
+ left:0;
+ z-index: -1;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 50px;
+}
+
+ul li{
+	float: left;
+}
+ul li a{
+	color: #fff;
+	display: block;
+	height: 50px;
+	padding: 0 10px;
+	text-transform: uppercase;
+	line-height: 50px;
+
+}
+ul li a:hover{
+	background: #d3d4d5;
+}
+body{
+	background-repeat: repeat-y repeat-x;
+	background-image: url(img/background.PNG);
+}
